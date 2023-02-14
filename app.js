@@ -79,11 +79,10 @@
 
 // Question #10
 // var score = [320, 230, 420, 180];
-
 // document.write("Score of students: " + score);
-// document.write("<br />Ordered score of students: " + score[3] + ", " +
-//     score[1] + ", " + score[0] + ", " + score[2]
-//     );
+
+// score.sort();
+// document.write("<br />Ordered score of students: " + score);
 
 // Question #11
 // var city =  [ "Lahore ", " Islamabad "," Karchi ", " Quetta ", " Rawalpindi"]
@@ -92,10 +91,9 @@
 // document.write("<br />Selected cities: " + selectCity);
 
 // Question #12
-// var arr = ["This ", "is ", "my ", "cat"];
-// var string = arr[0]+arr[1]+arr[2]+arr[3];
-// document.write("<h1>Array:</h1>"+arr);
-// document.write("<h1>String:</h1>"+string);
+// var array = ["This ", "is ", "my ", "cat"];
+// document.write("<h1>Array:</h1>"+array);
+// document.write("<h1>String:</h1>" + array.join(" "));
 
 // Question #13
 // var device = [];
